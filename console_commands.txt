@@ -1,0 +1,5 @@
+bundle install
+
+rails g model Pin title:string description:text
+rake db:migrate
+rails g controller Pins
